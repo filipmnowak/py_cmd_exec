@@ -9,6 +9,7 @@ from time import time
 from time import sleep
 from random import randint
 from os import chmod
+from os import remove
 from stat import S_IEXEC
 from stat import S_IREAD
 
@@ -76,7 +77,8 @@ class TestUtils(unittest.TestCase):
         with open(test_script_out, 'r') as f:
             arg_count = int(f.read().rstrip())
         self.assertEqual(arg_count, (len(args) - 1))
-        pass
+        remove(test_script)
+        remove(test_script_out)
         
 if __name__ == "__main__":
     unittest.main()
