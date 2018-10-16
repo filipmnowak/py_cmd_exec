@@ -1,3 +1,5 @@
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/filipmnowak/py_cmd_exec.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/filipmnowak/py_cmd_exec/alerts/)
+
 # py_cmd_exec 
 
 Execute external command
