@@ -1,5 +1,3 @@
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/filipmnowak/py_cmd_exec.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/filipmnowak/py_cmd_exec/alerts/) [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/filipmnowak/py_cmd_exec.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/filipmnowak/py_cmd_exec/context:python)
-
 # py_cmd_exec 
 
 Execute external command
