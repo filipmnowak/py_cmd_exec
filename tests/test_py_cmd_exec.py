@@ -1,9 +1,6 @@
-import sys
 import logging
 import unittest
 import warnings
-sys.path.append("..")
-sys.path.append(".")
 from py_cmd_exec import CMDExec as cmdexec
 from time import time
 from time import sleep
@@ -79,6 +76,6 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(arg_count, (len(args) - 1))
         remove(test_script)
         remove(test_script_out)
-        
+
 if __name__ == "__main__":
     unittest.main()
